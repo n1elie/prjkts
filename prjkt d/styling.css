@@ -1,0 +1,43 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ body{
+color: #ffffff;
+background: linear-gradient(rgb(68, 0, 0),rgba(66, 0, 32, 0)),url("mine.png");
+font-display: flex;
+font-family: algerian;
+z-index: 1;
+}
+
+.N{
+    font-size: 20px;
+    text-align: center;
+ }
+.anim{
+     opacity: 0;
+    transform: translateY(30px);
+     animation: moveup 0.5s linear forwards;
+ }
+ @keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.a{
+    animation-delay: 0.5s;
+}
+.b{
+    animation-delay: 1s;
+}
+.c{
+    animation-delay: 1.5s;
+}
+.d{
+    animation-delay: 2s;
+}
+.e{
+    animation-delay: 3s;
+}
